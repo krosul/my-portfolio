@@ -1,0 +1,110 @@
+body {
+  background-color: #262829;
+  font-family: "Satoshi", sans-serif;
+  margin: 0px;
+}
+.div-container-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.div-container-socialMedia {
+  display: flex;
+}
+.a-links {
+  width: 35px;
+  fill: #f04d3d;
+  margin: 5px 10px;
+  transition:all 200ms;
+}
+.a-links:hover {
+  fill: white;
+}
+.CV {
+  width: 100px;
+  border: 2px solid #f04d3d;
+  background-color: #f04d3d;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition:all 700ms;
+}
+.CV:hover {
+  background-color: white;
+  color: red;
+}
+.header {
+  height: 100%;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  color: white;
+}
+.Container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-home {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.div-title {
+  word-wrap: break-word;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+}
+.description {
+  word-wrap: break-word;
+  text-align: center;
+  font-size: small;
+}
+.container-text {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-around;
+}
+.title {
+  font-size: 1.5rem;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  word-wrap: break-word;
+  text-align: center;
+}
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+
+  transform: translateX(0%);
+}
+
+@media (max-width: 870px) {
+  .header {
+    /* backdrop-filter: blur(5px); */
+    backdrop-filter: none;
+  }
+}
+@media (min-width: 830px) {
+  .description {
+    font-size: larger;
+  }
+}

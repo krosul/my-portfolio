@@ -1,0 +1,72 @@
+.button-next {
+  visibility: hidden;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+.container-button {
+  position: absolute;
+  display: block;
+  width: max-content;
+  height: max-content;
+}
+.container-button:hover + .button-next {
+  visibility: inherit;
+  opacity: 0.5;
+}
+.svg {
+  width: 80px;
+  height: 80px;
+}
+.container-skills {
+  display: flex;  
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-all{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-skills{
+  margin:20px;
+  font-size: 3rem;
+}
+.stack{
+  text-align: center;
+}
+.stack:nth-child(2){
+  transition-delay: 200ms;
+}
+.stack:nth-child(3){
+  transition-delay: 300ms;
+}
+.stack:nth-child(4){
+  transition-delay: 400ms;
+}
+.stack:nth-child(5){
+  transition-delay: 500ms;
+}
+.stack:nth-child(6){
+  transition-delay: 600ms;
+}
+.stack:nth-child(7){
+  transition-delay: 700ms;
+}
+.stack:nth-child(8){
+  transition-delay: 800ms;
+}
+.stack:nth-child(9){
+  transition-delay: 900ms;
+}
+.stack:nth-child(10){
+  transition-delay: 1000ms;
+}
+.stack:nth-child(11){
+  transition-delay: 1100ms;
+}
+.stack:nth-child(12){
+  transition-delay: 1200ms;
+}
