@@ -26,7 +26,7 @@ export default function Projects() {
   ];
   return (
     <div id="container-projects" className="container-projects">
-      <h1>Projectos realizados</h1>
+      <h1>Proyectos realizados</h1>
       <div className="container">
         {projects.map((project, index) => (
           <article key={index} className="container-Project hidden ">
