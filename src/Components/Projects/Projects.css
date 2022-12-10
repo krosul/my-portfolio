@@ -23,6 +23,8 @@
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  max-width: 767px;
+  justify-content: center;
 }
 .title-card {
   font-size: 2rem;
@@ -50,6 +52,9 @@
 }
 .links {
   text-decoration: dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .links-svg {
   width: 50px;
