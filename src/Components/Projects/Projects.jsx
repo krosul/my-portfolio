@@ -1,36 +1,45 @@
-import React from "react";
-import timberliLandingPage from "./images/TimberliLandingPage.png";
-import timberliHomePage from "./images/TimberliHome.png";
-import timberliContributionPage from "./images/TimberliContribution.png";
-import PIHome from "./images/PIHome.png";
-import ShareMe from "./images/share-me.png";
-import PILandingPage from "./images/PILandingPage.png";
-import "./Projects.css";
+import React from 'react';
+import timberliLandingPage from './images/TimberliLandingPage.png';
+import timberliHomePage from './images/TimberliHome.png';
+import timberliContributionPage from './images/TimberliContribution.png';
+import PIHome from './images/PIHome.png';
+import ShareMe from './images/share-me.png';
+import PILandingPage from './images/PILandingPage.png';
+import PokeApp from './images/poke-app.png';
+import './Projects.css';
 export default function Projects() {
   const projects = [
     {
-      name: "Timberli",
-      description: "Timberli Es una pagina web dedicada a developers",
-      technologies: "React,Node.js y CSS",
-      link: "https://proyecto-final-orcin-seven.vercel.app",
-      repository: "https://github.com/Proyecto-Timberli/proyecto-final",
+      name: 'Timberli',
+      description: 'Timberli Es una pagina web dedicada a developers',
+      technologies: 'React,Node.js y CSS',
+      link: 'https://proyecto-final-orcin-seven.vercel.app',
+      repository: 'https://github.com/Proyecto-Timberli/proyecto-final',
       images: [timberliContributionPage, timberliHomePage, timberliLandingPage],
     },
     {
-      name: "PI Dogs",
-      description: "Es una pagina web de libreria de razas de perros",
-      technologies: "React,Node y CSS",
-      link: "https://pi-dogs-kpesuase9-krosul.vercel.app",
-      repository: "https://github.com/krosul/Pi-dogs",
+      name: 'PI Dogs',
+      description: 'Es una pagina web de libreria de razas de perros',
+      technologies: 'React,Node y CSS',
+      link: 'https://pi-dogs-kpesuase9-krosul.vercel.app',
+      repository: 'https://github.com/krosul/Pi-dogs',
       images: [PIHome, PILandingPage],
     },
     {
-      name: "Share me",
-      description: "Pagina inspirada en pinterest ",
-      technologies: "React,Sanity.io y tailwindcss",
-      link: "https://share-me-pi.netlify.app",
+      name: 'Share me',
+      description: 'Pagina inspirada en pinterest ',
+      technologies: 'React,Sanity.io y tailwindcss',
+      link: 'https://share-me-pi.netlify.app',
       // repository: "https://github.com/krosul/Pi-dogs",
       images: [ShareMe],
+    },
+    {
+      name: 'Poke-App',
+      description: 'Pagina estatica sobre pokemons',
+      technologies: 'Next.js,typescrypt y MaterialUI',
+      link: 'https://poke-roan-one.vercel.app',
+      repository: 'https://github.com/krosul/poke',
+      images: [PokeApp],
     },
   ];
   return (

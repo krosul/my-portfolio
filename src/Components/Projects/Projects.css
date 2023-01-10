@@ -45,7 +45,7 @@
   width: 85%;
   height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 12px;
   gap: 15px;
   align-items: center;
@@ -74,7 +74,7 @@ p {
     justify-content: center;
     align-items: center;
   }
-  .container-Project{
+  .container-Project {
     width: 260px;
   }
   .img-projects {
