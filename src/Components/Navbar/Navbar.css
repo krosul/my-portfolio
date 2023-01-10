@@ -20,28 +20,39 @@
   padding: 5px 35px 5px 35px;
   margin: 2.5px;
   text-decoration: none;
-  color: white;
+  color: #f04d3d;
   cursor: pointer;
+  font-weight: bolder;
   border-radius: 0.7rem;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  margin: 0px 3px;
+  color: rgb(222, 217, 217);
   transition: all 0.3s ease-in-out;
 }
 .navContainer input {
   display: none;
 }
 .li:hover {
+  color: #cdcdcd;
+}
+.li:hover > .p {
+  color: #f04d3d;
+}
+/* .li:hover {
   background-color: #f04d3d;
   color: #1d1d1d;
   font-weight: 800;
   transform: translateY(-0.3rem);
-}
+} */
 .logo {
-  color: #f04d3d;
-  white-space: nowrap;
+  width: 55px;
   margin: 0px;
   cursor: pointer;
-  font-family: "Satoshi", sans-serif;
-  font-size: 2.5rem;
-  font-style: italic;
 }
 @media (max-width: 870px) {
   .logo {
