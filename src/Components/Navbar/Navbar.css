@@ -62,7 +62,7 @@
     margin: 15px;
     justify-content: space-between;
     background-color: #1d1d1d;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
   }
   .hamburguer {
@@ -87,8 +87,8 @@
     width: 40px;
     height: 32px;
     position: absolute;
-    top: 1px;
-    right: 3px;
+    top: 13px;
+    right: 10px;
     cursor: pointer;
     opacity: 0;
     z-index: 3;
