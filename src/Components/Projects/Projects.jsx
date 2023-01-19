@@ -10,22 +10,6 @@ import './Projects.css';
 export default function Projects() {
   const projects = [
     {
-      name: 'Timberli',
-      description: 'Timberli Es una pagina web dedicada a developers',
-      technologies: 'React,Node.js y CSS',
-      link: 'https://proyecto-final-orcin-seven.vercel.app',
-      repository: 'https://github.com/Proyecto-Timberli/proyecto-final',
-      images: [timberliContributionPage, timberliHomePage, timberliLandingPage],
-    },
-    {
-      name: 'PI Dogs',
-      description: 'Es una pagina web de libreria de razas de perros',
-      technologies: 'React,Node y CSS',
-      link: 'https://pi-dogs-kpesuase9-krosul.vercel.app',
-      repository: 'https://github.com/krosul/Pi-dogs',
-      images: [PIHome, PILandingPage],
-    },
-    {
       name: 'Share me',
       description: 'Pagina inspirada en pinterest ',
       technologies: 'React,Sanity.io y tailwindcss',
@@ -40,6 +24,22 @@ export default function Projects() {
       link: 'https://poke-roan-one.vercel.app',
       repository: 'https://github.com/krosul/poke',
       images: [PokeApp],
+    },
+    {
+      name: 'Timberli',
+      description: 'Timberli Es una pagina web dedicada a developers',
+      technologies: 'React,Node.js y CSS',
+      link: 'https://proyecto-final-orcin-seven.vercel.app',
+      repository: 'https://github.com/Proyecto-Timberli/proyecto-final',
+      images: [timberliContributionPage, timberliHomePage, timberliLandingPage],
+    },
+    {
+      name: 'PI Dogs',
+      description: 'Es una pagina web de libreria de razas de perros',
+      technologies: 'React,Node y CSS',
+      link: 'https://pi-dogs-kpesuase9-krosul.vercel.app',
+      repository: 'https://github.com/krosul/Pi-dogs',
+      images: [PIHome, PILandingPage],
     },
   ];
   return (
