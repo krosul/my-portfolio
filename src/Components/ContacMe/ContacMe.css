@@ -1,5 +1,5 @@
 .container-contactme-p {
-  background-color: #21232e;
+  background-color: #111827;
   border: 5px solid #21232e;
   text-align: center;
   padding: 15px;
@@ -40,7 +40,7 @@
   border-radius: 8px;
   transition: all 250ms;
 }
-.icon:hover{
+.icon:hover {
   fill: aliceblue;
 }
 .info {
@@ -55,8 +55,8 @@
   text-decoration: none;
   color: white;
 }
-.contact-data:hover{
-  color:#f04d3d
+.contact-data:hover {
+  color: #f04d3d;
 }
 @media (max-width: 350px) {
   .contact-data {

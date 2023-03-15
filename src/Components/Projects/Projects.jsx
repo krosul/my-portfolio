@@ -48,41 +48,36 @@ export default function Projects() {
       <div className="container">
         {projects.map((project, index) => (
           <article key={index} className="container-Project  ">
+            <img className="img-projects" alt={project.name} src={project.images[0]} />
             <h1 className="title-card">{project.name}</h1>
-            <img
-              className="img-projects"
-              alt={project.name}
-              src={project.images[0]}
-            />
             <p className="project-description">{project.description}</p>
             <div className="div-links">
-              <p>{project.technologies}</p>
+              {/* <p>{project.technologies}</p> */}
               <div className="links">
-                <a
-                  className="links"
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a className="links" href={project.link} target="_blank" rel="noreferrer">
                   <svg
-                    className="links-svg"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="links-svg-deploy"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   >
-                    <path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path>
+                    <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path>
+                    <path d="M16 21l0 -2"></path>
+                    <path d="M19 16l2 0"></path>
+                    <path d="M3 8l2 0"></path>
+                    <path d="M8 3l0 2"></path>
                   </svg>
                 </a>
                 {project.repository && (
-                  <a
-                    className="links"
-                    href={project.repository}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a className="links" href={project.repository} target="_blank" rel="noreferrer">
                     <svg
-                      className="links-svg"
+                      className="links-svg-github"
                       role="img"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"

@@ -1,12 +1,13 @@
 .container-Project {
   width: 360px;
-  border: 8px solid black;
+  border: 1px solid black;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background: rgba(255, 255, 255, 0.996);
+  background: #111827;
+  overflow: hidden;
 }
 
 .img-projects {
@@ -33,14 +34,15 @@
   width: 100%;
   text-align: center;
   height: 50px;
-  background-color: #f04d3d;
-  color: black;
+
+  color: #f1f5f9;
   border-radius: 15px 15px 0px 0px;
 }
 .project-description {
-  /* margin: 10px; */
   font-size: 1.2rem;
+  color: #94a3b8;
 }
+
 .div-links {
   width: 85%;
   height: 100px;
@@ -56,14 +58,17 @@
   justify-content: center;
   align-items: center;
 }
-.links-svg {
+.links-svg-github {
   width: 50px;
   margin: 0px 5px 0px 5px;
-}
-.links-svg:hover {
   fill: #f04d3d;
-  transition: 250ms;
 }
+.links-svg-deploy {
+  width: 50px;
+  margin: 0px 5px 0px 5px;
+  stroke: #f04d3d;
+}
+
 p {
   color: black;
   font-weight: bold;
