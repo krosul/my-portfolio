@@ -1,5 +1,5 @@
-import React from "react";
-import "./Tech.css";
+import React from 'react';
+import './Tech.css';
 export default function Tech() {
   return (
     <div className="container-all ">
@@ -9,12 +9,7 @@ export default function Tech() {
       <div className="container-skills  ">
         <div className="hidden stack">
           <h2>React</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>React</title>
             <path
               fill="#61DAFB"
@@ -24,12 +19,7 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>HTML5</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>HTML5</title>
             <path
               fill="#E34F26"
@@ -39,12 +29,7 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>CSS</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>CSS3</title>
             <path
               fill="#1572B6"
@@ -54,12 +39,7 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>Javascript</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>JavaScript</title>
             <path
               fill="#F7DF1E"
@@ -69,12 +49,7 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>Redux</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>Redux</title>
             <path
               fill="#764ABC"
@@ -84,12 +59,7 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>Node.js</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>Node.js</title>
             <path
               fill="#339933"
@@ -99,24 +69,14 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>Express</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>Express</title>
             <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z" />
           </svg>
         </div>
         <div className="hidden stack">
           <h2>PostgreSQL</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>PostgreSQL</title>
             <path
               fill="#4169E1"
@@ -126,27 +86,17 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>Sequelize</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>Sequelize</title>
             <path d="M12.0264 0 1.5947 5.9922v12.0156L12.0264 24l10.3789-5.9922V5.9922L12.0264 0zm-.0274 3.4844 7.4297 4.2266v8.5781l-7.4297 4.2266-7.3476-4.1817-.0801-8.623 7.4277-4.2266zm.0489.5898c-.9765.5627-1.9519 1.1274-2.9277 1.6914v.2539l2.6074 1.5234v.4824c.1355-.0781.2616-.1511.4023-.2324l.2559.1504v-.3359c.8844-.5068 1.8073-1.0412 2.5684-1.4805.0035-.1232.0027-.2534.0039-.373-.9703-.5596-1.9403-1.1197-2.9102-1.6797zM8.335 6.1387c-.9705.553-1.9312 1.1228-2.8926 1.6914v3.4023c.965.5553 1.9287 1.1127 2.8926 1.6699l.4023-.2324v-2.916c.8561-.4945 1.7522-1.0126 2.4902-1.4395v-.4843L8.335 6.1387zm7.4433.0879-2.8926 1.6699v.3379l2.6367 1.541v3.0664c.0854.0494.1705.0991.2559.1484l2.8926-1.6699V7.918l-2.8926-1.6914zm-3.6484 2.1445c-.9636.5584-1.9281 1.1151-2.8926 1.6719v3.4238c.965.5553 1.9287 1.1127 2.8926 1.6699l2.8926-1.6719v-3.4023l-2.8926-1.6914zm-6.1973 3.7227c-.1627.0962-.3275.1889-.4902.2852v3.4023c.9643.5571 1.9284 1.1145 2.8926 1.6719l.4023-.2324v-2.918c.1625-.0939.3086-.1787.4727-.2734-.1629-.0945-.3047-.1763-.4727-.2734v-.508l-.4023.2325c-.8251-.4771-1.6902-.976-2.4024-1.3867zm12.2481.0859-2.4023 1.3887c-.088-.0509-.1672-.0972-.2559-.1484v.334l-.4922.2852.4922.2871v3.0664c.0854.0494.1705.0991.2559.1484l2.8926-1.6719v-3.4023l-.4903-.2872zm-8.4688 2.1387c-.1581.0913-.3165.1821-.4746.2734v3.4238c.9637.5575 1.9282 1.1136 2.8926 1.6699l2.8926-1.6699v-3.4023l-.4902-.2871-2.4023 1.3887c-.8307-.4804-1.7013-.9829-2.4181-1.3965z" />
           </svg>
         </div>
       </div>
-      <h1 className="hidden stack">Actualmente estoy aprendiendo:</h1>
+      {/* <h1 className="hidden stack">Actualmente estoy aprendiendo:</h1> */}
       <div className="container-skills">
         <div className="hidden stack">
           <h2>Typescript</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>TypeScript</title>
             <path
               fill="#3178C6"
@@ -156,12 +106,7 @@ export default function Tech() {
         </div>
         <div className="hidden stack">
           <h2>Next.js</h2>
-          <svg
-            className="svg"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>Next.js</title>
             <path
               fill="#000000"
