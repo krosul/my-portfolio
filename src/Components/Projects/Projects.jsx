@@ -2,10 +2,9 @@ import React from 'react';
 import timberliLandingPage from './images/TimberliLandingPage.png';
 import timberliHomePage from './images/TimberliHome.png';
 import timberliContributionPage from './images/TimberliContribution.png';
-import PIHome from './images/PIHome.png';
 import ShareMe from './images/share-me.png';
-import PILandingPage from './images/PILandingPage.png';
 import PokeApp from './images/poke-app.png';
+import OpenJira from './images/OpenJira.png';
 import './Projects.css';
 export default function Projects() {
   const projects = [
@@ -34,12 +33,12 @@ export default function Projects() {
       images: [timberliContributionPage, timberliHomePage, timberliLandingPage],
     },
     {
-      name: 'PI Dogs',
-      description: 'Es una pagina web de libreria de razas de perros',
-      technologies: 'React,Node y CSS',
-      link: 'https://pi-dogs-kpesuase9-krosul.vercel.app',
-      repository: 'https://github.com/krosul/Pi-dogs',
-      images: [PIHome, PILandingPage],
+      name: 'Open Jira',
+      description: 'Pagina inspirada en Jira',
+      technologies: 'React,Typescript,Node y mongoDB',
+      link: 'https://03-open-jira-seven.vercel.app',
+      repository: 'https://github.com/krosul/03-open-jira',
+      images: [OpenJira],
     },
   ];
   return (

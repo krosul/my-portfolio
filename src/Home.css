@@ -1,6 +1,6 @@
 body {
   background-color: #262829;
-  font-family: "Satoshi", sans-serif;
+  font-family: 'Satoshi', sans-serif;
   margin: 0px;
 }
 .div-container-a {
@@ -17,7 +17,7 @@ body {
   width: 35px;
   fill: #f04d3d;
   margin: 5px 10px;
-  transition:all 200ms;
+  transition: all 200ms;
 }
 .a-links:hover {
   fill: white;
@@ -32,7 +32,7 @@ body {
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  transition:all 700ms;
+  transition: all 700ms;
 }
 .CV:hover {
   background-color: white;
